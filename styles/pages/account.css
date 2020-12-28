@@ -1,11 +1,10 @@
-
-.container-fluid{
+.container-fluid {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
 }
 
-.img__container {    
+.img__container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -14,10 +13,9 @@
 
 .img__container img {
     width: 100%;
-    
 }
 
-.container__profile img { 
+.container__profile img {
     width: 20%;
     border: 1px solid #fff;
     border-radius: 4em;
@@ -36,37 +34,31 @@
 }
 
 .container__info h2 {
-   margin-bottom: 0;
+    margin-bottom: 0;
 }
-
 
 .container__info p {
-   margin-bottom: .4em;
-   font-size: 1.2em;
-    
+    margin-bottom: .4em;
+    font-size: 1.2em;
 }
 
-.container__info > p {
-   padding-left: 3em;
-   padding-right: 3em;
-    
+.container__info>p {
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .container__info__pair {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    
 }
 
 .container__info__pair div {
     padding: .4em;
-    
 }
 
-.container__info__pair div:nth-of-type(1) p{
+.container__info__pair div:nth-of-type(1) p {
     font-weight: bold;
-    
 }
 
 .container__info__pair label {
@@ -76,10 +68,29 @@
 .container__info__pair--grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+    margin-bottom: 0.2em;
 }
+
+.container__info__pair--grid progress {
+    background-color: rgba(56, 114, 189, 0.733);
+}
+
+progress::-webkit-progress-bar {}
+
+progress::-webkit-progress-value {
+    background-color: cyan;
+}
+
 tr:nth-child(even) {
     background-color: pink;
 }
 
+.container__info__intro {
+    padding-bottom: 0.7em;
+    letter-spacing: 0.01em;
+}
 
-
+table {
+    margin-top: 1.5em;
+}
