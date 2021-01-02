@@ -65,36 +65,6 @@
     margin-right: .7em;
 }
 
-.container__info__pair--grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 2rem;
-    margin-bottom: 0.2em;
-    width: 75%;
-}
-
-.container__info__pair--grid:hover {}
-
-.container__info__pair--grid progress {
-    background-color: #92bbd8ea;
-}
-
-progress::-webkit-progress-bar {
-    background-color: #0175ff;
-}
-
-progress::-moz-progress-bar {
-    background-color: #0175ff;
-}
-
-progress::-webkit-progress-value {
-    background-color: #111;
-}
-
-tr:nth-child(even) {
-    background-color: #92bbd8ea;
-}
-
 .container__info__intro {
     padding-bottom: 0.7em;
     letter-spacing: 0.01em;
@@ -108,29 +78,15 @@ fieldset {
     margin: 3em;
 }
 
-table {
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    width: 70%;
-}
-
-th {
-    font-size: 1.2em;
-    background-color: #24557e;
-    color: white;
-}
-
-table td {
-    padding: 0.6em;
-}
 
 legend {
     font-weight: 700;
     font-size: 1.5em;
 }
 
-.container__profile:hover {}
+.container__profile:hover {
+
+}
 
 .container__info__pair a {
     color: #5590c0;
