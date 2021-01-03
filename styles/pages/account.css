@@ -1,3 +1,7 @@
+body {
+    line-height: 1.25;
+}
+
 .container-fluid {
     width: 100%;
     padding-right: 0;
@@ -38,7 +42,7 @@
 }
 
 .container__info p {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .container__info__pair {
@@ -67,12 +71,12 @@
     letter-spacing: 0.01em;
     padding: 1em;
     line-height: 1.3em;
-    column-count: 2;
+    column-count: 1;
 }
 
 fieldset {
     border: 1px solid black;
-    margin-left: 3em; 
+    margin-left: 3em;
     margin-right: 3em;
 }
 
@@ -81,7 +85,7 @@ legend {
     font-size: 1.5em;
 }
 
-
-fieldset, .container__info__pair--grid:last-of-type {
+fieldset,
+.container__info__pair--grid:last-of-type {
     margin-bottom: 1em;
 }

@@ -1,20 +1,80 @@
-tr:nth-child(even) {
-    background-color: #92bbd8ea;
-}
-
 table {
-    margin-left: 1em;
-    margin-right: 1em;
-    width: 70%;
-    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid rgba(204, 204, 204, 0.829);
+    width: 100%;
+    max-width: 95%;
 }
 
-th {
-    font-size: 1.2em;
-    background-color: #24557e;
-    color: white;
+table caption {
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.3rem;
 }
 
+table tr {
+    border: 1px solid #ddd;
+    padding: 0.4rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+table tr:nth-child(even) {
+    background-color: #99c0dba8;
+}
+
+table th,
 table td {
-    padding: 0.6em;
+    padding: .625em;
+    text-align: center;
+    font-size: 1.45rem;
+}
+
+table th {
+    font-size: 1.4rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background-color: #80c1f0;
+}
+
+@media screen and (max-width: 550px) {
+    table {
+        border: none;
+    }
+    table caption {
+        font-size: 2.3rem;
+    }
+    table thead {
+        height: 0.2rem;
+        width: 0.2rem;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        background: #87b6d8;
+    }
+    table tr {
+        display: block;
+        border-bottom: 0.3rem solid #ced4dabd;
+    }
+    table td {
+        border-bottom: 0.1rem solid #ced4dabd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+    table td::before {
+        float: left;
+        content: attr(data-label);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    table {
+        max-width: 80%;
+    }
 }

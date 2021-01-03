@@ -4,9 +4,9 @@
     font-size: 2rem;
     margin-bottom: 0.2em;
 }
+
 .container__info__pair--grid:last-of-type {
     margin-bottom: 0;
-
 }
 
 .container__info__pair--grid progress {
@@ -14,11 +14,11 @@
 }
 
 progress::-webkit-progress-bar {
-    background-color: #0175ff;
+    background-color: #327fb6;
 }
 
 progress::-moz-progress-bar {
-    background-color: #0175ff;
+    background-color: #327fb6;
 }
 
 progress::-webkit-progress-value {
