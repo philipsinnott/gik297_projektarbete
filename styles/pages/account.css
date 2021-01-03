@@ -38,19 +38,21 @@
 }
 
 .container__info p {
-    margin-bottom: .4em;
     font-size: 1.1em;
-}
-
-.container__info>p {
-    padding-left: 3em;
-    padding-right: 3em;
 }
 
 .container__info__pair {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.container__info__pair p {
+    margin-bottom: .4em;
+}
+
+.container__info__pair a {
+    color: #5590c0;
 }
 
 .container__info__pair div {
@@ -61,12 +63,7 @@
     font-weight: bold;
 }
 
-.container__info__pair label {
-    margin-right: .7em;
-}
-
 .container__info__intro {
-    padding-bottom: 0.7em;
     letter-spacing: 0.01em;
     padding: 1em;
     line-height: 1.3em;
@@ -75,19 +72,16 @@
 
 fieldset {
     border: 1px solid black;
-    margin: 3em;
+    margin-left: 3em; 
+    margin-right: 3em;
 }
-
 
 legend {
     font-weight: 700;
     font-size: 1.5em;
 }
 
-.container__profile:hover {
 
-}
-
-.container__info__pair a {
-    color: #5590c0;
+fieldset, .container__info__pair--grid:last-of-type {
+    margin-bottom: 1em;
 }

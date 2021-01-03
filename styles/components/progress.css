@@ -1,0 +1,26 @@
+.container__info__pair--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+    margin-bottom: 0.2em;
+}
+.container__info__pair--grid:last-of-type {
+    margin-bottom: 0;
+
+}
+
+.container__info__pair--grid progress {
+    background-color: #92bbd8ea;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #0175ff;
+}
+
+progress::-moz-progress-bar {
+    background-color: #0175ff;
+}
+
+progress::-webkit-progress-value {
+    background-color: #111;
+}
