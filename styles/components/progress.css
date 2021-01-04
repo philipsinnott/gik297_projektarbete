@@ -1,7 +1,7 @@
 .container__info__pair--grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 0.2em;
 }
 

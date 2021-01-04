@@ -89,3 +89,12 @@ fieldset,
 .container__info__pair--grid:last-of-type {
     margin-bottom: 1em;
 }
+
+@media screen and (min-width: 550px) {
+    .container__info__intro {
+        column-count: 2;
+    }
+    fieldset {
+        max-width: 75%;
+    }
+}

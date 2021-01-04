@@ -61,9 +61,11 @@ table th {
         display: block;
         font-size: .8em;
         text-align: right;
+        display: flex;
+        flex-direction: column;
     }
     table td::before {
-        float: left;
+        display: flex;
         content: attr(data-label);
         font-weight: 700;
         text-transform: uppercase;
@@ -76,5 +78,11 @@ table th {
 @media screen and (min-width: 700px) {
     table {
         max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    table {
+        max-width: 60%;
     }
 }
