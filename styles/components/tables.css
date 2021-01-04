@@ -3,6 +3,7 @@ table {
     border: 1px solid rgba(204, 204, 204, 0.829);
     width: 100%;
     max-width: 95%;
+    margin-top: 1.8rem;
 }
 
 table caption {

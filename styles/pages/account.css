@@ -38,7 +38,7 @@ body {
 }
 
 .container__info h2 {
-    margin-bottom: 0;
+    margin-bottom: 0.1rem;
 }
 
 .container__info p {
@@ -52,7 +52,7 @@ body {
 }
 
 .container__info__pair p {
-    margin-bottom: .4em;
+    margin-bottom: 1rem;
 }
 
 .container__info__pair a {
@@ -79,10 +79,13 @@ fieldset {
     margin-right: 3em;
 }
 
+
+/*
 legend {
     font-weight: 700;
     font-size: 1.5em;
 }
+*/
 
 fieldset,
 .container__info__pair--grid:last-of-type {
