@@ -1,5 +1,7 @@
 body {
     line-height: 1.25;
+    /* */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container-fluid {
@@ -70,21 +72,16 @@ body {
 .container__info__intro {
     letter-spacing: 0.01em;
     padding: 1em;
-    line-height: 1.3em;
+    line-height: 1.4em;
     column-count: 1;
 }
 
-fieldset {
+.container__info {
     margin-left: 3em;
     margin-right: 3em;
 }
 
-legend {
-    font-weight: 700;
-    font-size: 1.5em;
-}
-
-fieldset,
+.container__info,
 .container__info__pair--grid:last-of-type {
     margin-bottom: 1em;
 }
@@ -92,8 +89,5 @@ fieldset,
 @media screen and (min-width: 550px) {
     .container__info__intro {
         column-count: 2;
-    }
-    fieldset {
-        max-width: 75%;
     }
 }

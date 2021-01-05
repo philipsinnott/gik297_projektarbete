@@ -3,13 +3,17 @@ table {
     border: 1px solid rgba(204, 204, 204, 0.829);
     width: 100%;
     max-width: 95%;
+    margin-top: 1.8rem;
 }
 
+
+/*
 table caption {
     font-size: 2.2rem;
     margin-bottom: 0.3rem;
     margin-left: 0.3rem;
 }
+*/
 
 table tr {
     border: 1px solid #ddd;

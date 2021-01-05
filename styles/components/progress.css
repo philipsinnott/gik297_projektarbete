@@ -10,11 +10,11 @@
 }
 
 .container__info__pair--grid progress {
-    background-color: #92bbd8ea;
+    background-color: #92bbd8;
 }
 
 progress::-webkit-progress-bar {
-    background-color: #327fb6;
+    background-color: #92bbd8;
 }
 
 progress::-moz-progress-bar {
@@ -22,5 +22,5 @@ progress::-moz-progress-bar {
 }
 
 progress::-webkit-progress-value {
-    background-color: #111;
+    background-color: #327fb6;
 }
