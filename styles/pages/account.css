@@ -22,15 +22,15 @@ body {
 }
 
 .container__profile img {
-    width: 20%;
-    border: 1px solid #fff;
-    border-radius: 4em;
+    width: 25%;
+    border: 5px solid black;
+    border-radius: 50%;
 }
 
 .container__profile {
     display: flex;
     justify-content: center;
-    margin-top: -2.4em;
+    margin-top: -3.5em;
 }
 
 .container__info {
@@ -86,8 +86,18 @@ body {
     margin-bottom: 1em;
 }
 
+@media screen and (max-width: 550px) {
+    .container__profile img {
+        width: 35%;
+    }
+}
+
 @media screen and (min-width: 550px) {
     .container__info__intro {
         column-count: 2;
+    }
+    .container__profile img {
+        width: 35%;
+        max-width: 28rem;
     }
 }
