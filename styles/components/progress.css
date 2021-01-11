@@ -1,15 +1,15 @@
-.container__info__pair--grid {
+.progress__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 1.8rem;
     margin-bottom: 0.2em;
 }
 
-.container__info__pair--grid:last-of-type {
+.progress__container:last-of-type {
     margin-bottom: 0;
 }
 
-.container__info__pair--grid progress {
+.progress__container progress {
     background-color: #92bbd8;
 }
 
