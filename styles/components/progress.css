@@ -1,15 +1,15 @@
-.progress__container {
+.progress-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 1.8rem;
     margin-bottom: 0.2em;
 }
 
-.progress__container:last-of-type {
+.progress-container:last-of-type {
     margin-bottom: 0;
 }
 
-.progress__container progress {
+.progress-container progress {
     background-color: #92bbd8;
 }
 
@@ -23,4 +23,8 @@ progress::-moz-progress-bar {
 
 progress::-webkit-progress-value {
     background-color: #327fb6;
+}
+
+.progress-container:last-of-type {
+    margin-bottom: 1em;
 }
