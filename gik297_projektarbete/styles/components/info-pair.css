@@ -1,0 +1,21 @@
+.info-pair {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.info-pair p {
+    margin-bottom: .4em;
+}
+
+.info-pair a {
+    color: #5590c0;
+}
+
+.info-pair div {
+    padding: .4em;
+}
+
+.info-pair div:nth-of-type(1) p {
+    font-weight: bold;
+}
