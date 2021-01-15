@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="./styles/base/base.css" />
     <link rel="stylesheet" href="./styles/components/tables.css" />
     <link rel="stylesheet" href="./styles/components/progress.css" />
-    <link rel="stylesheet" href="./styles/components/img_containers.css" />
+    <link rel="stylesheet" href="./styles/components/profile_containers.css" />
+    <link rel="stylesheet" href="./styles/components/info-pair.css" />
+    <link rel="stylesheet" href="./styles/components/info-container.css" />
     <link rel="stylesheet" href="./styles/layout/layout.css" />
     <link rel="stylesheet" href="./styles/pages/account.css" />
     <script src="https://kit.fontawesome.com/0cb12500ed.js" crossorigin="anonymous"></script>
@@ -51,28 +53,30 @@
             </div>
         </nav>
     </header>
-    <main role="main" class="container-fluid">
-        <div class="img-container">
-            <img class="img-container__img" 
-                     sizes="
-                      (max-width: 330px) 165px,
-                      (max-width: 500px) 250px,
-                      (min-width: 501px) 800px" srcset="
-                        ./img/webp/bg/elon_w_330.webp 330w,
-                        ./img/webp/bg/elon_w_500.webp 500w,
-                        ./img/webp/bg/elon_w_800.webp 800w
-                        " src="./img/webp/bg/elon_w_800.jpg" alt="Elon Musk">
+    <main role="main">
+        <div class="profile-imgs-container">
+            <img class="profile-imgs-container__background" 
+                 sizes="
+                     (max-width: 330px) 330px,
+                     (max-width: 500px) 500px,
+                     (min-width: 501px) 800px"
+                 srcset="
+                     ./img/webp/bg/elon_w_330.webp 330w,
+                     ./img/webp/bg/elon_w_500.webp 500w,
+                     ./img/webp/bg/elon_w_800.webp 800w" 
+                     
+                 src="./img/webp/bg/elon_w_800.jpg" alt="Elon Musk">
 
-
-            <div class="profile-container">
+            <div class="profile-imgs-container__profile">
                 <img sizes="
-                      (max-width: 200px) 100px,
-                      (max-width: 496px) 234.5px,
-                      (min-width: 497px) 576px" srcset="
-                        ./img/webp/profil/elon_w_200.webp 200w,
-                        ./img/webp/profil/elon_w_496.webp 496w,
-                        ./img/webp/profil/elon_w_576.webp 576w
-                        " src="./img/webp/profil/elon_w_576.png" alt="Elon Musk">
+                      (max-width: 200px) 200px,
+                      (max-width: 496px) 496px,
+                      (min-width: 497px) 576px"
+                    srcset="
+                    ./img/webp/profil/elon_w_200.webp 200w,
+                    ./img/webp/profil/elon_w_496.webp 496w,
+                    ./img/webp/profil/elon_w_576.webp 576w" 
+                    src="./img/webp/profil/elon_w_576.jpg" alt="Elon Musk">
 
             </div>
         </div>
@@ -121,8 +125,8 @@
                 <label for="twitter">Twitter</label>
                 <progress value="100" max="100" id="twitter"></progress>
             </div>
-            <table>
-                <h2>Course information</h2>
+            <h2>Course information</h2>
+            <table>   
                 <thead>
                     <tr>
                         <th>Kurskod</th>

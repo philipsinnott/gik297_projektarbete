@@ -6,6 +6,8 @@ body {
   font-size: var(--fontStd);
   font-family: var(--fontSans);
   background-color: var(--white);
+  line-height: 1.25;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 main {
   position: relative;
